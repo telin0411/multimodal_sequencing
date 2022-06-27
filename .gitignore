@@ -19,3 +19,4 @@ slurm-*
 *.swp
 .DS*
 runs*
+missing*
