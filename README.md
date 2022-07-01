@@ -2,7 +2,7 @@
 
 ## Data
 
-Please download the data from these links: [WikiHow](www.google.com), and [RecipeQA](www.google.com), and put the tar.gz files under the folder `data` to untar them. They should contain everything you need.
+Please download the data from these links: [WikiHow](https://www.google.com/), and [RecipeQA](https://www.google.com/), and put the tar.gz files under the folder `data` to untar them. They should contain everything you need.
 
 You can also use the notebook `demo_data.ipynb` to randomly inspect some data samples.
 
@@ -64,4 +64,4 @@ Please cite our work using:
 }
 ```
 
-Please contact [Te-Lin Wu](telinwu@g.ucla.edu) should you have any questions, thanks!
+Please contact [Te-Lin Wu](mailto:telinwu@g.ucla.edu) should you have any questions, thanks!
