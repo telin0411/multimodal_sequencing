@@ -36,7 +36,7 @@ For evaluation, simply comment out the `--do_train` flag in each script and make
 sh scripts/wikihow_finetune.sh
 ```
 
-# Suggested Process
+## Suggested Process
 
 1. We recommend executing the `wikihow_image_only_pretrain.sh` first to obtain a good visual encoder, however, this step can be skipped if end-point performance is not of big concern.
 2. Put the image pretrained files at some path and use them with the flag `--clip_visual_model_weights` for loading.
@@ -44,7 +44,7 @@ sh scripts/wikihow_finetune.sh
 4. Execute the training. FYI in our experiments we use A100 type GPUs.
 5. Note that the split with `human` in the name are human inspected golden-test-set instead of a random split test set.
 
-# Using Multi-Ref sets.
+## Using Multi-Ref sets.
 
 Simply change the tag in the `--eval_splits` to something like `test-acl22_human_multiref_multimodal` to fit your needs.
 
