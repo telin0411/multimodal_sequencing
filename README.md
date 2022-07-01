@@ -6,6 +6,8 @@ Please download the data from these links: [WikiHow](https://www.google.com/), a
 
 You can also use the notebook `demo_data.ipynb` to randomly inspect some data samples.
 
+Download the necessary model weights from [here](https://www.google.com/) and untar it. Put the `pretrained_models` in this path (i.e., `.`) as they are downloaded LM pretrained weights that are required for our training.
+
 ## Requirements
 
 You can run the pip installation with the provided `requirements.txt`, however, it encompasses all the libraries I installed for my particular conda environment, the most important packages are:
@@ -49,7 +51,7 @@ sh scripts/wikihow_finetune.sh
 Simply change the tag in the `--eval_splits` to something like `test-acl22_human_multiref_multimodal` to fit your needs.
 
 # Using Our Trained Model Weights
-1. Change the `--output_dir` to the path you store the pretrained weights.
+1. Change the `--output_dir` to the path you store the pretrained weights `paper_weights`.
 2. Change the `--iters_to_eval` to `best`.
 
 ## Citation
