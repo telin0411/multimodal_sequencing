@@ -5,12 +5,9 @@ VISION_MODEL="resnet50"
 
 OUTPUT_ROOT="your/output/root"
 OUTPUT_NAME="your/output/name"
-OUTPUT_ROOT="/data1/telinwu/research/multimodal_2020/sort" \
-OUTPUT_NAME="exp_outputs/paper_results/finetune/${DATA_NAME}/${TASK_NAME}_berson_multimodal_clip/${MODEL_TYPE}_resnet50_roberta_large_pretrain_mlm0p1_mrm_mask5_img_swap_patch_based_img_swap_iter10k_seqlen60" \
 
 python3 -m trainers.train \
   --model_name_or_path "your/pretrained/model/path/checkpoint-[ITER]" \
-  --model_name_or_path "/data1/telinwu/research/multimodal_2020/sort/exp_outputs/paper_results/pretrain/${TASK_NAME}/${TASK_NAME}_multimodal_pretrain_clip/${MODEL_TYPE}_${VISION_MODEL}_mlm0p1_mrm_mask5_img_swap_patch_based_img_swap_pretraining/checkpoint-10000" \
   --config_name "bert-base-uncased" \
   --config_name "roberta-large" \
   --tokenizer_name "bert-base-uncased" \

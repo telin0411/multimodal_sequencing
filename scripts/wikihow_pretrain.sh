@@ -6,8 +6,6 @@ VISION_MODEL="resnet50"
 
 OUTPUT_ROOT="your/output/root"
 OUTPUT_NAME="your/output/name"
-OUTPUT_ROOT="/local1/telinwu/research/multimodal_2020/sort/testing"
-OUTPUT_NAME="test_pretrain"
 
 python3 -m trainers.run_pretraining \
   --model_name_or_path "pretrained_models/roberta/large" \

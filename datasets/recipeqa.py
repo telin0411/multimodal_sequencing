@@ -11,8 +11,8 @@ from .utils import DataProcessor
 from .utils import InputPairWiseExample, InputHeadExample, InputAbductiveExample
 
 
-RECIPEQA_DATA_ROOT = "your/wikihow/data/root"
-RECIPEQA_DATA_ROOT = "/local1/telinwu/research/multimodal_2020/sort/data_with_images/recipeQA"
+# TODO: change.
+RECIPEQA_DATA_ROOT = "data/recipeQA"
 
 
 class RecipeQAPairWiseProcessor(DataProcessor):

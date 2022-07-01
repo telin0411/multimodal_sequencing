@@ -24,7 +24,6 @@ python3 -m trainers.run_pretraining \
   --per_seq_max_length 60 \
   --data_dirs "data/${DATA_DIR1}" \
   --data_names ${DATA_NAME1} \
-  --output_root "/data1/telinwu/research/multimodal_2020/sort" \
   --max_story_length 5 \
   --output_root "${OUTPUT_ROOT}" \
   --output_dir "${OUTPUT_NAME}" \

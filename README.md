@@ -2,11 +2,11 @@
 
 ## Data
 
-Please download the data from these links: [WikiHow](https://www.google.com/), and [RecipeQA](https://www.google.com/), and put the tar.gz files under the folder `data` to untar them. They should contain everything you need.
+Please download the data from these links: [WikiHow](https://drive.google.com/file/d/1WpBJ0ChBNaZeJxT-3rk7pdhEpIapi40V/view?usp=sharing), and [RecipeQA](https://drive.google.com/file/d/1MtXrN7ux-Ht98I8iEBRv7SM3c_TOQQlX/view?usp=sharing), and put the tar.gz files under the folder `data` to untar them. They should contain everything you need.
 
 You can also use the notebook `demo_data.ipynb` to randomly inspect some data samples.
 
-Download the necessary model weights from [here](https://www.google.com/) and untar it. Put the `pretrained_models` in this path (i.e., `.`) as they are downloaded LM pretrained weights that are required for our training.
+Download the necessary model weights from [here](https://drive.google.com/file/d/1JUZTY8fTHadgf9jHuj0YP7cY9LPVYzhS/view?usp=sharing) and untar it. Put the `pretrained_models` in this path (i.e., `.`) as they are downloaded LM pretrained weights that are required for our training.
 
 ## Requirements
 

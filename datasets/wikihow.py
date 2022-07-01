@@ -13,8 +13,8 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 
 
-WIKIHOW_DATA_ROOT = "your/wikihow/data/root"
-WIKIHOW_DATA_ROOT = "/local1/telinwu/research/multimodal_2020/sort/data_with_images/wikihow"
+# TODO: change.
+WIKIHOW_DATA_ROOT = "data/wikihow"
 
 IMAGE_FIELD_NAMES = [
     "image-large",
