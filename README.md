@@ -6,7 +6,7 @@ Please download the data from these links: [WikiHow](https://drive.google.com/fi
 
 You can also use the notebook `demo_data.ipynb` to randomly inspect some data samples.
 
-Download the necessary model weights from [here](https://drive.google.com/file/d/1JUZTY8fTHadgf9jHuj0YP7cY9LPVYzhS/view?usp=sharing) and untar it. Put the `pretrained_models` in this path (i.e., `.`) as they are downloaded LM pretrained weights that are required for our training.
+Download the necessary model weights from [here](https://drive.google.com/file/d/1qOuTU5RoHPncqo4kgivZ0c9xeyGQqQNE/view?usp=sharing) and untar it. Put the `pretrained_models` in this path (i.e., `.`) as they are downloaded LM pretrained weights that are required for our training.
 
 ## Requirements
 
